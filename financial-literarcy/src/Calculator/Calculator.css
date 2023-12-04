@@ -1,0 +1,77 @@
+.wholeCalculator{
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: mediumseagreen;
+}
+
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 20px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color:green;
+    font-size: x-large;
+}
+
+.calculator{
+    width: 58vh;
+    height: 60vh;
+    background-color: whitesmoke;
+    margin: 1.5rem;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 3px black;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+
+text{
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+label{
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.buttonClicked{
+    width: 15vh;
+    height: 5vh;
+    position: relative;
+    box-shadow: 0 0 3px black;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: mediumseagreen;
+    margin: 1.5rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    text-align: center;
+}
